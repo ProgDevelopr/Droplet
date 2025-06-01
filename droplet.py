@@ -17,3 +17,13 @@ class count():
         self.list = list
     def __repr__(self):
         return f"{int(len(self.list))}"
+    
+class dropindex():
+    def __init__(self,lst,indexnum):
+        self.indexnum = indexnum
+        self.lst = lst
+    def drop(self):        
+        self.lst.pop(self.indexnum)
+    def __repr__(self):
+        self.lst.pop(self.indexnum)
+        return f"{self.lst}"

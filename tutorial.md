@@ -2,7 +2,7 @@ Start by creating a new Python file that isn't named "droplet.py", and typing:
 import droplet
 You can set the name with the "as" keyword!
 
-We rigth now have 3 methods:
+We rigth now have 4 methods:
 
 - listsort()
 
@@ -15,3 +15,7 @@ count(), counts the amount of elements of a list!
 - sortcount()
 
 sortcount(), sorts a list and then counts the amount of elements in a list!
+
+- dropindex()
+
+dropindex(), can remove any index that is in a list! for example: a = droplet.dropindex(listname,listindexnumber)
