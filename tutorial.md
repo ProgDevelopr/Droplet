@@ -19,6 +19,7 @@ sortcount(), sorts a list and then counts the amount of elements in a list!
 - dropindex()
 
 dropindex(), can remove any index that is in a list! For example: a = droplet.dropindex(listname,listindexnumber)
+
 - addindex()
 
 addindex(), adds an index to a list! For example: a = droplet.addindex(listname,,listindexnumber)
