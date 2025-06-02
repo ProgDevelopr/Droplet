@@ -27,3 +27,11 @@ class dropindex():
     def __repr__(self):
         self.lst.pop(self.indexnum)
         return f"{self.lst}"
+    
+class addindex():
+    def __init__(self,lst,numberorstr):
+        self.lst = lst
+        self.numberorstr = numberorstr
+    def __repr__(self):
+        self.lst.append(self.numberorstr)
+        return f"{self.lst}"
